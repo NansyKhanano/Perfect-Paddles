@@ -1,0 +1,19 @@
+  h1 {
+                color:red;
+            }
+            
+ .hilite {
+                color:darkred;
+                /*font-size: 40px;*/
+            }
+
+ /*#banner_text {
+                color:goldenrod;
+            }*/
+
+.bigblue{
+    color: blue;
+    font-weight: bold; 
+    font-size: 35px;
+}
+
