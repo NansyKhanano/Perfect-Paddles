@@ -186,7 +186,16 @@ a {
  }
 
 .promo-images {
-  width:100%;
-  margin:.5em 0;
-  box-shadow: 1px 0px 5pm 1pm #666;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-flow:row wrap;
 }
+
+.promo-images img {
+  width: 100%;
+  margin:5em 0;
+  box-shadow: 1px 0px 5pm 1pm #666;
+
+}
+
