@@ -39,3 +39,17 @@ body {
   color:#2d2d2d;
 }
 
+img {
+  max-width: 100%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: "Pacifico";
+  color: #646464;
+  margin: 1em auto;
+}
