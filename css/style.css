@@ -53,3 +53,56 @@ h2 {
   color: #646464;
   margin: 1em auto;
 }
+
+header {
+  background-color: black;
+  text-align: center;
+  padding-top:10px;
+}
+
+header img {
+  max-width: 60%;
+  max-height: 50px;
+}
+
+nav ul {
+  padding: 1em 0;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main {
+  margin: 0.5em;
+}
+
+.footer {
+  background: #222222;
+  color: white;
+  text-align: center;
+  padding: 3em 2em;
+}
+
+p {
+  line-height: 2em;
+  margin-bottom: 2em;
+}
+
+ {
+  color:#e2574c;
+}
