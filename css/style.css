@@ -112,12 +112,11 @@ a {
 }
 
 .banner {
-  background:linear-gradient(
-    to top,
-    rgba(0, 0, 0, 35) 0%,
-    rgba(0, 0, 0, 25) 100%
-  ),
-   url('../images/kayak-bkgd.jpg');
+  background:linear-gradient( 
+    rgba(0, 0, 0, .35) 0%,
+    rgba(0, 0, 0, .25) 100%
+  );
+  background: url("../images/kayak-bkgd.jpg");
   background-repeat: no-repeat;
   background-position:top center;
   background-size: cover;
@@ -158,10 +157,36 @@ a {
 
 .rent-our {
   color: white;
-  background-color: rgba(0, 0, 0, 5);
+  background-color: rgba(0, 0, 0, .5);
   text-align: center;
   margin: 1.5em auto;
   margin-bottom: 3em;
   padding: 1em;
   width: 75%;
+}
+
+.btn-signup {
+  background-color:#e2574c;
+  border-radius: 2em;
+  border: 1px solid #e2574c;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:white;
+  font-size: 1.15em;
+  padding: .75em;
+}
+.btn-signup:hover {
+  background-color:#b64036;
+  border-color:#b64036;
+  color:white;
+}
+
+ .about {
+   text-align: center;
+ }
+
+.promo-images {
+  width:100%;
+  margin:.5em 0;
+  box-shadow: 1px 0px 5pm 1pm #666;
 }
