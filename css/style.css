@@ -175,10 +175,12 @@ a {
   font-size: 1.15em;
   padding: .75em;
 }
-.btn-signup:hover {
+.btn-signup :hover {
   background-color:#b64036;
   border-color:#b64036;
   color:white;
+  transition-property: text;
+  transition-timing-function: ease;
 }
 
  .about {
@@ -199,3 +201,54 @@ a {
 
 }
 
+.rentals table, .rentals th .rentals td {
+  border: 1px solid #c8c8c8;
+}
+
+.rentals table {
+  width: 100%;
+}
+.rentals th {
+  background: #e6e6e6;
+  text-align:center;
+  font-weight:bold;
+  padding: .5em
+}
+
+.rentals td {
+  width: 33%;
+  text-align: left;
+  padding: .5em;
+}
+
+.rentals td:first-child {
+  text-align: left;
+}
+.rentals tr :hover {
+
+  background-color: #fdf6d9;
+}
+
+input {
+  font-family: "pacifico";
+  font-size: 1em;
+  color: rebeccapurple;
+  padding: .5em 1em;
+}
+
+textarea {
+  font-family: "Karla";
+  font-size: .25em
+}
+
+input:focus textarea:focus{
+  outline-color:purple solid;
+
+}
+
+button {
+  padding:2em;
+  color:white;
+  background-color: purple;
+  box-shadow: 2px 2px gold;
+}
