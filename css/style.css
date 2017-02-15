@@ -94,8 +94,12 @@ main {
 .footer {
   background: #222222;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 3em 2em;
+}
+
+.social-icon{
+  margin: 0 auto;
 }
 
 p {
@@ -175,10 +179,12 @@ a {
   font-size: 1.15em;
   padding: .75em;
 }
-.btn-signup:hover {
+.btn-signup :hover {
   background-color:#b64036;
   border-color:#b64036;
   color:white;
+  transition-property: text;
+  transition-timing-function: ease;
 }
 
  .about {
@@ -198,4 +204,196 @@ a {
   box-shadow: 1px 0px 5pm 1pm #666;
 
 }
+.tel :hover {
+  color:#b64036;
+  transition-property: text;
+  transition-timing-function: ease;
+}
+.rentals table, .rentals th .rentals td {
+  border: 1px solid #c8c8c8;
+}
 
+.rentals table {
+  width: 100%;
+}
+.rentals th {
+  background: #e6e6e6;
+  text-align:center;
+  font-weight:bold;
+  padding: .5em
+}
+
+.rentals td {
+  width: 33%;
+  text-align: left;
+  padding: .5em;
+}
+
+.rentals td:first-child {
+  text-align: left;
+}
+.rentals tr :hover {
+
+  background-color: #fdf6d9;
+}
+
+
+.location {
+  text-align: center;
+}
+
+.map {
+  width: 100%;
+  height: 40vh;
+}
+
+.footerlink {
+  color: white;
+  text-decoration: none;
+}
+.social-link-words {
+  display: none;
+}
+
+.footermailtocall {
+  color:white;
+  font-weight: 0.5em;
+}
+
+/*tablet breakpoint:600px*/
+
+@media (min-width: 600px) {
+  header {
+    display: flex;
+    flex-grow:1;
+    flex-shrink:0;
+    flex-basis:0;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px;
+  }
+
+.logo {
+  max-width:40%;
+}
+
+nav {
+  display: flex;
+  flex-grow:1;
+  flex-shrink:0;
+  flex-basis:0;
+  justify-content: flex-end;
+}
+
+nav ul {
+  width: auto;
+  max-width: auto;
+  margin:0;
+}
+
+nav ul li{
+  margin: 0.5em;
+}
+
+.footer {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.footer article {
+  text-align: left;
+  max-width: 40%;
+}
+
+.footer nav ul {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width:auto;
+  }
+
+.footer nav ul li{
+  margin: .25em .5em;
+  }
+
+.banner p {
+  display: inline-block;
+  width:auto;
+  padding: .5em;
+  }
+
+.promo-images img {
+  width: 30%;
+  }
+
+.rentals table, .rentals th, .rentals td {
+	  border: 1px solid #c8c8c8;
+	}
+.rentals table {
+	  width: 100%;
+	}
+.rentals th {
+	  background: #e6e6e6;
+	  text-align: center;
+	  font-weight: bold;
+	  padding: .5em 0;
+	}
+.rentals td {
+	  width: 33%;
+	  text-align: center;
+	  padding: .5em;
+	}
+.rentals td:first-child {
+	  text-align: left;
+	}
+.rentals tr:hover {
+	  background-color: #fbf6d9;
+	}
+
+.location {
+	  text-align: center;
+	}
+
+.map {
+	  width: 100%;
+	  height: 40vh;
+	}
+
+.social-link-words {
+	  display: none;
+	}
+
+	 /* desktop breakpoint: 1140px **/
+@media (min-width: 1140px){    
+.about p {
+	      max-width: 40%;
+	      margin: 1.5em auto;
+	    }
+
+.footer {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+
+.rentals {
+	      max-width: 40%;
+	      margin: 1.5em auto;
+        text-justify: left;
+	    }
+.footer article {
+	      max-width: 30%;
+	    }
+
+ .rentals table {
+	      width: 40%;
+        align-items: center;
+	    }
+	  } 
