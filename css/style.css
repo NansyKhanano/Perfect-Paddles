@@ -237,31 +237,6 @@ a {
   background-color: #fdf6d9;
 }
 
-/* Form stying commented out
-
-input {
-  font-family: "pacifico";
-  font-size: 1em;
-  color: rebeccapurple;
-  padding: .5em 1em;
-}
-
-textarea {
-  font-family: "Karla";
-  font-size: .25em
-}
-
-input:focus, textarea:focus{
-  outline-color:purple;
-
-}
-
-button {
-  padding:2em;
-  color:white;
-  background-color: purple;
-  box-shadow: 2px 2px gold;
-}*/
 
 .location {
   text-align: center;
