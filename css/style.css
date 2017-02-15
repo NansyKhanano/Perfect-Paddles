@@ -94,8 +94,12 @@ main {
 .footer {
   background: #222222;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 3em 2em;
+}
+
+.social-icon{
+  margin: 0 auto;
 }
 
 p {
@@ -259,7 +263,7 @@ button {
   box-shadow: 2px 2px gold;
 }*/
 
-/*.location {
+.location {
   text-align: center;
 }
 
@@ -272,20 +276,16 @@ button {
   color: white;
   text-decoration: none;
 }
-/*.social-link-words {
+.social-link-words {
   display: none;
-}*/
-/*
-.fa fa-facebook-square {
+}
 
-}*/
-
-/*.footermailtocall {
+.footermailtocall {
   color:white;
   font-weight: 0.5em;
 }
 
-tablet breakpoint:600px*/
+/*tablet breakpoint:600px*/
 
 @media (min-width: 600px) {
   header {
@@ -297,7 +297,7 @@ tablet breakpoint:600px*/
     align-items: center;
     padding:10px;
   }
-}
+
 .logo {
   max-width:40%;
 }
@@ -399,12 +399,6 @@ nav ul li{
 	      margin: 1.5em auto;
 	    }
 
-.rentals {
-	      max-width: 40%;
-	      margin: 1.5em auto;
-        text-justify: left;
-	    }
-
 .footer {
   display: flex;
   flex-grow: 1;
@@ -413,6 +407,12 @@ nav ul li{
   flex-flow: row wrap;
   justify-content: left;
 }
+
+.rentals {
+	      max-width: 40%;
+	      margin: 1.5em auto;
+        text-justify: left;
+	    }
 .footer article {
 	      max-width: 30%;
 	    }
